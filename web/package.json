@@ -19,6 +19,8 @@
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
+    "express-mysql-session": "^3.0.0",
+    "express-session": "^1.17.3",
     "mysql2": "^3.6.2",
     "node-cron": "^3.0.2",
     "serve-static": "^1.15.0"

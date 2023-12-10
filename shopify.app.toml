@@ -1,3 +1,28 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+name = ">boa-home-task-SL"
+client_id = "0cb1126b0cf45dec651fe8f743c3d9c1"
+application_url = "https://cvs-states-perl-constraints.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://cvs-states-perl-constraints.trycloudflare.com/auth/callback",
+  "https://cvs-states-perl-constraints.trycloudflare.com/auth/shopify/callback",
+  "https://cvs-states-perl-constraints.trycloudflare.com/api/auth/callback",
+  "https://cvs-states-perl-constraints.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "home-assignment-2.myshopify.com"
